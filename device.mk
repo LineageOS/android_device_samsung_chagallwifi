@@ -90,5 +90,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.carrier=wifi-only
 
+# IO Scheduler
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.io.scheduler=bfq
+
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/samsung/chagallwifi/chagallwifi-vendor.mk)
