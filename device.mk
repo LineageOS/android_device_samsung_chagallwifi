@@ -21,6 +21,10 @@ LOCAL_PATH := device/samsung/chagallwifi
 
 DEVICE_PACKAGE_OVERLAYS += device/samsung/chagallwifi/overlay
 
+# Device uses high-density artwork where available
+PRODUCT_AAPT_CONFIG := normal xlarge
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.primary.universal5420 \
