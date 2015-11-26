@@ -22,9 +22,6 @@ LOCAL_PATH := device/samsung/chagallwifi
 # Vold
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun0/file
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
-
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_deathly_chagallwifi_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/klimtwifi
