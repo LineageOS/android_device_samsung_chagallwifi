@@ -25,6 +25,30 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/chagallwifi/overlay
 PRODUCT_AAPT_CONFIG := normal xlarge
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
+# Camera
+PRODUCT_PACKAGES += \
+    camera.universal5420 \
+    libhwjpeg
+
+# GPS
+PRODUCT_PACKAGES += \
+    gps.universal5420
+
+# HW composer
+PRODUCT_PACKAGES += \
+    libion \
+    hwcomposer.exynos5 \
+    gralloc.exynos5 \
+    memtrack.exynos5
+
+# Power
+PRODUCT_PACKAGES += \
+    power.universal5420
+
+# IR
+PRODUCT_PACKAGES += \
+    consumerir.universal5420
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.primary.universal5420 \
