@@ -20,7 +20,7 @@
 LOCAL_PATH := device/samsung/chagallwifi
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_deathly_chagallwifi_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_chagallwifi_defconfig
 
 # Bootloader
 TARGET_OTA_ASSERT_DEVICE := chagallwifi
