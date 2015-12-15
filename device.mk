@@ -29,6 +29,9 @@ PRODUCT_PACKAGES += \
     init.universal5420.rc \
     ueventd.universal5420.rc
 
+PRODUCT_PACKAGES += \
+    make_f2fs
+
 # Radio (needed for audio controls even on wifi-only)
 PRODUCT_PACKAGES += \
     libsecril-client \

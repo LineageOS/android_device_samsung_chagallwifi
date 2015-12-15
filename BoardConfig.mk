@@ -40,6 +40,7 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.universal5420
+TARGET_USERIMAGES_USE_F2FS := true
 
 # inherit from the proprietary version
 -include vendor/samsung/chagallwifi/BoardConfigVendor.mk
