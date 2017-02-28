@@ -59,6 +59,9 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.universal5420.rc
 
+# Wifi blob symlink script
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/releasetools/firmware.sh:install/bin/firmware.sh
 
 # call dalvik heap and hwui config
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-dalvik-heap.mk)
