@@ -13,7 +13,7 @@ etc/wifi/bcmdhd_sta.bin_a0
 etc/wifi/bcmdhd_sta.bin:etc/wifi/bcmdhd_sta.bin_4354_a1
 etc/wifi/bcmdhd_ibss.bin
 etc/wifi/bcmdhd_ibss.bin_a0
-etc/wifi/bcmdhd_ibbss.bin:etc/wifi/bcmdhd_ibss.bin_4354_a1
+etc/wifi/bcmdhd_ibss.bin:etc/wifi/bcmdhd_ibss.bin_4354_a1
 etc/wifi/cred.conf
 etc/wifi/nvram_mfg.txt_4354_a0
 etc/wifi/nvram_mfg.txt_4354_a1
